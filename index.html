@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurent Style Web Design</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="logo-dark.png" alt="logodark" class="nav__logo-dark">
+                        <img src="logo-white.png" alt="logowhite" class="nav__logo-white">
+                    </a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                   <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#special">SPECIAL</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#event">EVENTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="section__container header__container" id="home">
+            <div class="header__image">
+                <img src="header.png" alt="header">
+            </div>
+            <div class="header__content">
+                <h2>NOW IS THE GOOD TIME TO HAVE A BURGUR DELIGHT</h2>
+                <h1>BURGUR <br><span>WEEK</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+        <div class="banner__card">
+           <p>TRY IT TODAY</p>
+           <h4>TASTIEST BURGUR IN TOWN</h4>
+        </div>
+        <div class="banner__card">
+           <p>TRY IT TODAY</p>
+           <h4>MORE FUN <br>MORE TASTE</h4>
+        </div>
+        <div class="banner__card">
+           <p>TRY IT TODAY</p>
+           <h4>THE FRESH TASTE</h4>
+        </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+        <h3>THE TASTE HERE IS 24/7</h3>
+        <h2 class="section__header">CHOOSE & ENJOY!</h2>
+        <p class="section__description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+            Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+            Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+        </p>
+        <div class="order__grid">
+            <div class="order__card">
+                <img src="order-1.png" alt="order">
+                <h4>Chicken Burgur!</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                </p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="order__card">
+                <img src="order-2.png" alt="order">
+                <h4>The Veggie Delight!</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                </p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="order__card">
+                <img src="order-3.png" alt="order">
+                <h4>BBQ Bacon Burgur!</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                </p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+        <div class="event__content">
+            <div class="event__image">
+                <img src="event.png" alt="event">
+            </div>
+            <div class="event__details">
+                <h3>DISCOVER</h3>
+                <h2 class="section__header">UPCOMING EVENTS</h2>
+                <p class="section__descrition">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation" id="contact">
+        <div class="section__container reservation__container">
+            <h3>RESERVATION</h3>
+            <h2 class="section__header">BOOK YOUR TABLE</h2>
+            <form action="/">
+                <input type="text" placeholder="NAME">
+                <input type="email" placeholder="EMAIL">
+                <input type="date" placeholder="DATE">
+                <input type="time" placeholder="TIME">
+                <input type="number" placeholder="PEOPLE">
+                <button class="btn" type="submit">GET YOUR TABLE</button>
+            </form>
+        </div>
+        <img src="reservation-bg-1.png" alt="reservation" class="reservation__bg-1">
+        <img src="reservation-bg-2.png" alt="reservation" class="reservation__bg-2">
+    </section>
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__logo">
+                <img src="logo-white.png" alt="logo">
+            </div>
+            <div class="footer__content">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores perspiciatis alias obcaecati eveniet? 
+                    Facilis excepturi vel commodi quidem neque necessitatibus porro inventore quasi ipsum, deserunt vitae corporis aut vero.
+                </p>
+                <div>
+                    <ul class="footer__links">
+                        <li>
+                            <span><i class="ri-map-pin-2-fill"></i></span>
+                            MG Road, Bangalore, 500089
+                        </li>
+                        <li>
+                            <span><i class="ri-mail-fill"></i></span>
+                            info@burgurhouse.com
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright C 2024 Code-Rush | All rights reserved.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
